@@ -5,7 +5,15 @@ NETHER_GATE_MARKER = "NetherMarker"
 TOWN_ICON = f"{URL}/icons/marker_town.png"
 NETHER_ICON = f"{URL}/icons/marker_town.png"
 DEFAULT_PLAYER_ICON = f"{URL}/icons/marker_location.png"
-PLAYER_ICONS = {}
+PLAYER_ICONS = {
+    "kylehighclub": f"{URL}/icons/kyle.png",
+    "HallsaUsageway": f"{URL}/icons/mike.png",
+    "brjns": f"{URL}/icons/levi.png",
+    "Bromentum": f"{URL}/icons/bromax.png",
+    "IamYourFarter": f"{URL}/icons/matt.png",
+    "chucklebug": f"{URL}/icons/chuck.png",
+    "tutenkhamun": f"{URL}/icons/tristan.png"
+}
 
 
 def town_filter(poi):
